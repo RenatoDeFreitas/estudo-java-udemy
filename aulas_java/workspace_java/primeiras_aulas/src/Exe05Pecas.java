@@ -35,8 +35,8 @@ public class Exe05Pecas {
 		totalPagar = pago1 + pago2;
 		
 
-		System.out.printf("Valor a pagar: R$ %.2f",totalPagar);
-		
+		System.out.printf("Valor a pagar: R$ %.2f%n",totalPagar);
+		System.out.print("código 01 "+cod1 + " Código 02 "+  cod2);
 		
 		
 		
