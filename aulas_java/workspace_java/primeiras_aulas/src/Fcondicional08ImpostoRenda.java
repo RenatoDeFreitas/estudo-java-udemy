@@ -13,7 +13,7 @@ public class Fcondicional08ImpostoRenda {
 		System.out.print("Enter the salary amount: ");
 		double salary = teclado.nextDouble();
 		double tax = 0.0;
-		double totalSalary;
+		double totalSalary = salary;
 
 // LOGICA
 
@@ -34,7 +34,7 @@ public class Fcondicional08ImpostoRenda {
 		}
 
 		teclado.close();
-		totalSalary = salary - tax;
+		totalSalary -=  tax ;
 		
 //SAIDA USUÁRIO
 		
